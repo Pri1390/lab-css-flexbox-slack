@@ -8,3 +8,72 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+/* 
+Tenho que ler as lessons no portal, pq ainda está não consegui entender os fundamentos básicos
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+nav{     
+    background: #540B51;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+   height: 80px;
+  
+  }
+  
+  nav div{
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul{
+    margin: 0;
+    list-style: none;
+    display: flex;
+  }
+  nav li{
+    margin: 0;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+  }
+  nav li a{
+    color:#fff;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  nav .btn a{
+    color:#540B51;
+   
+  }
+  nav li a:hover{
+   border-bottom: 2px solid white;
+  }
+  .menu-right{
+    display: flex;
+    align-items: center;
+    display: flex;
+  }
+  .menu-right li{
+   margin-left: 1rem;
+  }
+  button {    background: no-repeat;
+    border: none;
+  }
+  
+  
+  .container{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
